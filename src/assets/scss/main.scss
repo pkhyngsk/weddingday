@@ -1,0 +1,23 @@
+@use './reset.scss';
+
+.inner {
+  width: 100%; max-width: 750px; margin: 0 auto;
+}
+
+.section-01 {
+  position: relative;
+  img { width: 100%; height: 100vh; object-fit: cover; }
+  .info {
+    position: absolute; left: 50%; bottom: 5%; transform: translateX(-50%); text-align: center;
+    p {
+      color: #fff;
+    }
+  }
+}
+.section-02 {
+  padding: 50px; text-align: center;
+}
+.section-03 {
+  padding: 50px; text-align: center;
+  
+}
