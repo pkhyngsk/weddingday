@@ -37,15 +37,13 @@
 <template>
   <div class="inner">
     <div class="section-01">
-      <img src="@/assets/images/main.jpg" alt="" />
-      <div class="info">
-        <p>2026년 11월 28일 토요일</p>
-        <p>오전 10시 30분</p>
-        <p>더메이 마제스틱 볼룸</p>
-      </div>
+      <img class="main" src="@/assets/images/main.jpg" alt="" />
+      <img class="info" src="@/assets/images/info.png" alt="" />
+      <img class="info-title" src="@/assets/images/info-title.png" alt="" />
+      <div class="dim"></div>
     </div>
     <div class="section-02">
-      <p>
+      <!-- <p>
         저희 두 사람의 만남이<br />
         여름 방학 같았던 8년의 시간이 지나<br />
         사랑의 결실을 맺어<br />
@@ -54,7 +52,8 @@
         저희 두 사람이 하나 되는 날<br />
         귀한 걸음 하시어<br />
         축복해 주시면 감사하겠습니다.
-      </p>
+      </p> -->
+      <img class="letter" src="@/assets/images/letter.png" alt="" />
     </div>
     <div class="section-03">
       <p><span>박기택 · 이현숙</span> 의 장남 <span>박형석</span></p>

@@ -6,16 +6,15 @@
 
 .section-01 {
   position: relative;
-  img { width: 100%; height: 100vh; object-fit: cover; }
-  .info {
-    position: absolute; left: 50%; bottom: 5%; transform: translateX(-50%); text-align: center;
-    p {
-      color: #fff;
-    }
-  }
+  .main { width: 100%; height: 90vh; height: 90svh; object-fit: cover; z-index: 1; }
+  .dim { width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 2; opacity: 0.5;  background: rgba(0, 0, 0, 5.8); background: linear-gradient(360deg, rgba(0, 0, 0, 0.58) 0%, rgba(255, 255, 255, 0) 100%); }
+  .info { width: 85%; position: absolute; left: 50%; bottom: -2%; z-index: 3; transform: translateX(-50%); }
+  .info-title { width: 90%; position: absolute; left: 50%; bottom: -8%; z-index: 4; transform: translateX(-50%); }
 }
 .section-02 {
-  padding: 50px; text-align: center;
+  position: relative; padding: 120px 0 120px;
+  background-image: url('@/assets/images/letter-bg.jpg');
+  .letter { width: 70%; margin: 0 auto; }
 }
 .section-03 {
   padding: 50px; text-align: center;
