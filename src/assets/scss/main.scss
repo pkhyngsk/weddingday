@@ -1,7 +1,7 @@
 @use './reset.scss';
 
 .inner {
-  width: 100%; max-width: 750px; margin: 0 auto;
+  width: 100%; max-width: 620px; margin: 0 auto;
 }
 
 .section-01 {
@@ -19,4 +19,9 @@
 .section-03 {
   padding: 50px; text-align: center;
   
+}
+.section-06 {
+  button {
+    width: 200px; height: 100px; background: red;
+  }
 }

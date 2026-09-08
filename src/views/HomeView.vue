@@ -15,6 +15,14 @@
     })
   )
 
+  const copyAccount = async (account) => {
+    try {
+      await navigator.clipboard.writeText(account)
+      alert('계좌번호가 복사되었습니다.')
+    } catch (error) {
+      console.error('복사 실패:', error)
+    }
+  }
   onMounted(() => {
     const weddingPosition = new naver.maps.LatLng(
       35.8598503,
@@ -32,6 +40,7 @@
       title: '전주 더메이호텔'
     })
   })
+
 </script>
 
 <template>
@@ -84,6 +93,8 @@
       <div id="map"></div>
     </div>
     <div class="section-06">
+      <p>국민 831402-01-101654</p>
+      <button @click="copyAccount('국민 831402-01-101654')"></button>
   
     </div>
   </div>
