@@ -1,5 +1,10 @@
 @use './reset.scss';
 
+html,
+body {
+  touch-action: pan-x pan-y;
+}
+
 .inner {
   width: 100%; max-width: 620px; margin: 0 auto;
 }
